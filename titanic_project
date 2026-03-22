@@ -1,0 +1,55 @@
+# Titanic Survival Prediction 🚢
+
+## Problem Statement
+
+The goal of this project is to predict whether a passenger survived the Titanic disaster using Machine Learning techniques.
+
+## Dataset Features
+
+* Age
+* Fare
+* Sex
+* Pclass
+* SibSp
+* Parch
+* Embarked
+
+## Preprocessing Steps
+
+* Removed constant / useless columns
+* Handled missing values using mode imputation
+* Feature Engineering:
+
+  * Created FamilySize feature
+  * Created IsAlone feature
+* Outlier Handling:
+
+  * Log transformation applied on Fare
+* Feature Scaling using StandardScaler
+
+## Model Used
+
+* Logistic Regression
+
+## Accuracy
+
+Achieved approximately **78% accuracy**
+
+## Libraries Used
+
+* pandas
+* numpy
+* scikit-learn
+* seaborn
+* matplotlib
+
+## How to Run
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Then run the notebook:
+
+titanic.ipynb
+Added Titanic README
